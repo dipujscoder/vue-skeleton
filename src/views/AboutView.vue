@@ -1,15 +1,15 @@
-<template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
-</template>
+<script setup>
+import MyLayout from '@/components/Layout/BaseLayout.vue';
+</script>
 
-<style>
-@media (min-width: 1024px) {
-  .about {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-  }
-}
-</style>
+<template>
+  <MyLayout>
+    <section>1</section>
+    <section>2</section>
+    <section>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab itaque, voluptatum accusamus a tempore inventore
+        earum molestias accusantium non ducimus? Cumque rerum laboriosam minima distinctio dolor sapiente sunt ab
+        corporis?</p>
+    </section>
+  </MyLayout>
+</template>
